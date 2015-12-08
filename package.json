@@ -2,7 +2,7 @@
   "name": "angular2-authentication-sample",
   "version": "0.0.0",
   "description": "This is a sample that shows how to add authentication to an Angular 2 (ng2) app",
-  "main": "",
+  "main": "gulpfile.js",
   "scripts": {
     "server": "cd backend && npm i && node server.js",
     "front": "webpack-dev-server --inline -d --colors --display-error-details --display-cached --port 3000",
@@ -14,10 +14,10 @@
     "url": "https://github.com/auth0/angular2-authentication-sample.git"
   },
   "contributors": [
-    "Martin Gontovnikas (http://gon.to) <martin@gon.to>",
+    "Martin Gontovnikas <martin@gon.to> (http://gon.to)",
     "PatrickJS <github@gdi2290.com>"
   ],
-  "license": "MIT",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/auth0/angular2-authentication-sample/issues"
   },
@@ -45,10 +45,23 @@
     "loader-utils": "0.2.11",
     "style-loader": "0.12.4",
     "ts-loader": "0.5.6",
-    "typescript": "1.6.2",
+    "typescript": "~1.7.3",
     "url-loader": "0.5.6",
     "webpack": "1.12.2",
     "webpack-dev-server": "1.12.1",
-    "xtend": "4.0.0"
-  }
+    "xtend": "4.0.0",
+    "gulp": "~3.9.0",
+    "gulp-uglify": "~1.5.1",
+    "del": "~2.2.0",
+    "gulp-rev": "~6.0.1",
+    "gulp-usemin": "~0.3.16",
+    "gulp-minify-html": "~1.0.4",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-typescript": "~2.10.0",
+    "tslint": "~3.1.1",
+    "gulp-tslint": "~4.1.2",
+    "superstatic": "~3.0.0",
+    "browser-sync": "~2.10.0"
+  },
+  "author": ""
 }
